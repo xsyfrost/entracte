@@ -1,0 +1,43 @@
+{
+ "packages": [
+  {
+   "package": "entracte",
+   "version": "1.1.12-0021",
+   "dname": "Entracte",
+   "desc": "Vos films et séries, à la maison et en déplacement.",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.12/entracte-armv8-1.1.12-0021.spk",
+   "size": 99829760,
+   "md5": "b4f6866440140af82704873be072dad5",
+   "thumbnail": [
+    "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
+    "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
+   ],
+   "snapshot": [],
+   "changelog": "La télévision n'est plus mise à jour pendant qu'Entracte y est ouvert (la mise à jour attend qu'on ait fini de regarder)",
+   "maintainer": "Entracte",
+   "maintainer_url": "https://github.com/xsyfrost/entracte",
+   "distributor": "",
+   "distributor_url": "",
+   "qinst": true,
+   "qstart": true,
+   "qupgrade": true,
+   "start": true,
+   "silent_install": false,
+   "silent_uninstall": false,
+   "silent_upgrade": true,
+   "beta": false,
+   "thirdparty": true,
+   "category": 0,
+   "subcategory": 0,
+   "type": 0,
+   "price": 0,
+   "download_count": 0,
+   "recent_download_count": 0,
+   "deppkgs": null,
+   "depsers": null,
+   "conflictpkgs": null,
+   "auto_upgrade_from": null
+  }
+ ],
+ "keyrings": []
+}
