@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.1.15-0024",
+   "version": "1.1.16-0025",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.15/entracte-x86_64-1.1.15-0024.spk",
-   "size": 133007360,
-   "md5": "6758268af98585990766a64549af81c6",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.16/entracte-x86_64-1.1.16-0025.spk",
+   "size": 133591040,
+   "md5": "6644212816671851c83a5d0e9f2ee7d4",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Seedbox ruTorrent : les téléchargements terminés sont repérés aussitôt (toutes les 15 secondes) et rapatriés sans attendre, avec filtre par étiquette et par dossier, et la progression des torrents en cours affichée dans Réglages",
+   "changelog": "Catégorie réservée : onglet En ligne avec recherche sur toutes les plateformes activées (Eporner pour commencer), favoris, déjà vues et reprise\nLecture dans le lecteur de la plateforme piloté par Entracte, sans publicité ni fenêtre surgissante\nBack-office : chaque plateforme s'active ou se coupe",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
