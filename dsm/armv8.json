@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.1.13-0022",
+   "version": "1.1.14-0023",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.13/entracte-armv8-1.1.13-0022.spk",
-   "size": 99819520,
-   "md5": "ce0b331da932cf85e8bb500992bbb1d8",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.14/entracte-armv8-1.1.14-0023.spk",
+   "size": 99829760,
+   "md5": "428de477279a4949de39d1fac1f76ec3",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Mises à jour : la page Réglages montre la version installée et la dernière publiée, propose le paquet du NAS et l'application Android à télécharger, et coche les réglages DSM de la mise à jour automatique\nSource de paquets publique sur GitHub (plus de 127.0.0.1) : Entracte s'installe et se met à jour directement depuis le Centre de paquets\nFTP plus réactif : connexion gardée ouverte, coup d'œil chaque minute, toutes les 30 s pendant un envoi",
+   "changelog": "Catégorie réservée sur la télévision : cinq appuis sur OK sur le logo, puis le code sur un pavé de chiffres, font apparaître son onglet dans le menu (et rien d'autre) \n un cadenas tout en haut la referme\nÀ la maison, plus de blocage du code après des erreurs (le garde-fou reste pour les accès depuis internet)",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
