@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.1.14-0023",
+   "version": "1.1.15-0024",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.14/entracte-armv8-1.1.14-0023.spk",
-   "size": 99829760,
-   "md5": "428de477279a4949de39d1fac1f76ec3",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.15/entracte-armv8-1.1.15-0024.spk",
+   "size": 99870720,
+   "md5": "427571bf814a8e4b1235890c2a58ead9",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Catégorie réservée sur la télévision : cinq appuis sur OK sur le logo, puis le code sur un pavé de chiffres, font apparaître son onglet dans le menu (et rien d'autre) \n un cadenas tout en haut la referme\nÀ la maison, plus de blocage du code après des erreurs (le garde-fou reste pour les accès depuis internet)",
+   "changelog": "Seedbox ruTorrent : les téléchargements terminés sont repérés aussitôt (toutes les 15 secondes) et rapatriés sans attendre, avec filtre par étiquette et par dossier, et la progression des torrents en cours affichée dans Réglages",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
