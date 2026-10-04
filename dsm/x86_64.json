@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.1.12-0021",
+   "version": "1.1.13-0022",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.12/entracte-x86_64-1.1.12-0021.spk",
-   "size": 132935680,
-   "md5": "7d6d4bd4c54d70269f178716545f46b8",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.13/entracte-x86_64-1.1.13-0022.spk",
+   "size": 132945920,
+   "md5": "0faef0d9e62c60ba2bc3226fb8d6fc07",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "La télévision n'est plus mise à jour pendant qu'Entracte y est ouvert (la mise à jour attend qu'on ait fini de regarder)",
+   "changelog": "Mises à jour : la page Réglages montre la version installée et la dernière publiée, propose le paquet du NAS et l'application Android à télécharger, et coche les réglages DSM de la mise à jour automatique\nSource de paquets publique sur GitHub (plus de 127.0.0.1) : Entracte s'installe et se met à jour directement depuis le Centre de paquets\nFTP plus réactif : connexion gardée ouverte, coup d'œil chaque minute, toutes les 30 s pendant un envoi",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
