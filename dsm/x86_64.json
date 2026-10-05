@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.1.20-0029",
+   "version": "1.1.21-0030",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.20/entracte-x86_64-1.1.20-0029.spk",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.21/entracte-x86_64-1.1.21-0030.spk",
    "size": 133601280,
-   "md5": "14772e69b838f56158eaf08271dba228",
+   "md5": "e3eea5134da21f92e9854e43829e35c7",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Premier lancement : un écran avec barre de progression (analyse des fichiers, reconnaissance des titres, affiches) s'affiche avant tout le reste\nCatégorie discrète, partout (site, téléphone, télévision) : le code ajoute son onglet dans la barre du haut sans y emmener \n on la referme en y entrant (Masquer)\nSite web : onglet En ligne dans la catégorie réservée, avec recherche sur toutes les plateformes, aperçus qui défilent au survol, favoris et déjà vues, lecture dans un cadre isolé sans fenêtre surgissante",
+   "changelog": "Langues : un simple choix « Toutes les langues » à côté du tri, au lieu des rangées de filtres \n plus de filtre des sous-titres",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
