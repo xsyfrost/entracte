@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.1.21-0030",
+   "version": "1.1.22-0031",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.21/entracte-x86_64-1.1.21-0030.spk",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.22/entracte-x86_64-1.1.22-0031.spk",
    "size": 133601280,
-   "md5": "e3eea5134da21f92e9854e43829e35c7",
+   "md5": "55f4591726a4746c3fd51fe15ce46991",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Langues : un simple choix « Toutes les langues » à côté du tri, au lieu des rangées de filtres \n plus de filtre des sous-titres",
+   "changelog": "Épisode suivant : plus de bouton, la vignette de l'épisode suivant est sélectionnée \n OK la lance aussitôt, Retour l'efface pour regarder le générique, sinon elle démarre seule",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
