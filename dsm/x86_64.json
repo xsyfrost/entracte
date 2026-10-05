@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.1.16-0025",
+   "version": "1.1.17-0026",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.16/entracte-x86_64-1.1.16-0025.spk",
-   "size": 133591040,
-   "md5": "6644212816671851c83a5d0e9f2ee7d4",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.17/entracte-x86_64-1.1.17-0026.spk",
+   "size": 133580800,
+   "md5": "4f7d1a0384fa785aa59cbae3d12fbf77",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Catégorie réservée : onglet En ligne avec recherche sur toutes les plateformes activées (Eporner pour commencer), favoris, déjà vues et reprise\nLecture dans le lecteur de la plateforme piloté par Entracte, sans publicité ni fenêtre surgissante\nBack-office : chaque plateforme s'active ou se coupe",
+   "changelog": "Installation : DSM donne lui-même à Entracte l'accès à vos dossiers partagés (lecture pour trouver les vidéos, écriture pour ranger ce que la synchronisation rapatrie), annoncé dans un écran de l'installation \n plus rien à régler dans les Autorisations",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
