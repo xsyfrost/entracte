@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.1.22-0031",
+   "version": "1.1.23-0032",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.22/entracte-x86_64-1.1.22-0031.spk",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.23/entracte-x86_64-1.1.23-0032.spk",
    "size": 133601280,
-   "md5": "55f4591726a4746c3fd51fe15ce46991",
+   "md5": "a646799ae403789c704b1b1e78384890",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Épisode suivant : plus de bouton, la vignette de l'épisode suivant est sélectionnée \n OK la lance aussitôt, Retour l'efface pour regarder le générique, sinon elle démarre seule",
+   "changelog": "Textes d'aide : la catégorie discrète (le code ajoute son onglet, Masquer la referme) et l'exemple du champ des étiquettes",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
