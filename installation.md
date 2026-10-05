@@ -13,6 +13,8 @@ Comptez un quart d'heure la première fois. Ensuite, les mises à jour arrivent 
 
 Dans DSM, ouvrez le **Centre de paquets**, puis **Paramètres** :
 
+![Le Centre de paquets, bouton Paramètres en haut à droite](img/01-centre-de-paquets.png)
+
 1. Onglet **Général**, **Niveau de confiance** : « N'importe quel éditeur ». Entracte n'est pas signé par Synology.
 2. Onglet **Mise à jour auto** : cochez l'installation automatique et choisissez **toutes les mises à jour** (et non « importantes uniquement »). C'est ce qui permet au NAS de se mettre à jour tout seul.
 3. Onglet **Sources de paquets**, **Ajouter** :
@@ -23,11 +25,21 @@ Dans DSM, ouvrez le **Centre de paquets**, puis **Paramètres** :
 
    En cas de doute : **Panneau de configuration**, **Centre d'infos** : le processeur y est indiqué.
 
+   ![L'onglet Sources de paquet](img/02-sources-de-paquet.png)
+
+   ![La source Entracte](img/03-ajouter-la-source.png)
+
 ## 2. Installer
 
 1. Dans le Centre de paquets, onglet **Communauté** (à gauche) : Entracte y apparaît. Cliquez sur **Installer**.
+
+   ![Entracte dans l'onglet Communauté](img/04-communaute.png)
 2. Acceptez l'avertissement « développeurs tiers ».
+
+   ![L'avertissement développeurs tiers](img/05-avertissement.png)
 3. L'écran **Accès à vos vidéos** annonce ce que DSM va faire : donner à Entracte, et à lui seul, la lecture et l'écriture sur vos dossiers partagés (la liste est affichée ; vos dossiers personnels « homes » restent fermés). La lecture sert à trouver vos films et séries, l'écriture uniquement à ranger ce que la synchronisation rapatrie. Rien à régler dans les Autorisations : cliquez sur **Suivant**, puis **Terminé**.
+
+   ![Entracte installé](img/06-installe.png)
 4. Ouvrez le **menu principal** de DSM : l'icône Entracte y est. DSM ne place jamais une application sur le bureau tout seul : faites glisser l'icône du menu jusqu'au bureau.
 
 DSM donne lui-même à Entracte l'accès à la puce vidéo du NAS, s'il en a une.
@@ -45,15 +57,27 @@ Dans Entracte, **Réglages**, **Installation**, étape **Mises à jour** : la ve
 Cliquez sur l'icône Entracte.
 
 1. **Bienvenue** : choisissez votre prénom, puis **Commencer**. C'est le profil administrateur. Les autres membres de la maison auront chacun le leur, sans mot de passe à la maison.
+
+   ![L'écran de bienvenue](img/07-bienvenue.png)
 2. **Configuration**, en trois étapes :
    - **Recherche de vos vidéos** : Entracte parcourt vos dossiers partagés (30 secondes au plus ; **Arrêter et choisir moi-même** pour aller plus vite).
+
+     ![La recherche de vos vidéos](img/08-recherche.png)
    - **Vos catégories** : Films, Séries, Documentaires et Adulte. Vérifiez les dossiers proposés, ou **Choisir le dossier**. Documentaires et Adulte sont facultatives.
      Films et séries dans un même dossier ? Choisissez ce dossier pour **Films** et pour **Séries** : Entracte donne les épisodes (S01E02, dossiers « Saison 1 »…) aux Séries et le reste aux Films.
+
+     ![Vos catégories](img/09-categories.png)
    - **Affiches, résumés et bandes-annonces** : suivez les étapes pour créer une clé TMDB gratuite. TMDB affiche deux valeurs : collez la **API Key** (la courte, 32 caractères) ; la longue, « API Read Access Token », fonctionne aussi. **Vérifier et enregistrer**, puis **Terminer et lancer l'analyse**.
+
+     ![La clé TMDB](img/10-tmdb.png)
 3. **Préparation de votre bibliothèque** : une barre de progression suit l'analyse des fichiers, la reconnaissance des titres et le téléchargement des affiches. Cela ne se fait qu'une fois (**Afficher sans attendre** pour passer).
+
+   ![L'accueil, une fois la bibliothèque prête](img/11-accueil.jpg)
 4. Ensuite, dans **Réglages** (rond avec votre initiale, en haut à droite) :
    - **Installation**, étape **Applications** : le QR code installe l'application sur les téléphones Android. Pour une Android TV ou une Shield, l'application **Downloader** avec l'adresse affichée, ou **Rechercher ma télévision** pour que le NAS l'installe et la tienne à jour.
    - **Installation**, étape **Mises à jour** : les trois réglages de l'étape 1 doivent être cochés en vert.
+
+     ![L'étape Mises à jour](img/12-mises-a-jour.png)
 
 Un dossier partagé créé après l'installation peut être signalé « pas le droit de lire » : **Panneau de configuration**, **Dossier partagé**, le dossier concerné, **Modifier**, **Autorisations**. Dans la liste en haut, choisissez **Utilisateur système interne**, puis cochez **Lecture/Écriture** pour **entracte**.
 
@@ -61,16 +85,26 @@ Un dossier partagé créé après l'installation peut être signalé « pas le d
 
 Elle n'apparaît jamais sur l'accueil, dans « Reprendre » ni dans la recherche, et TMDB n'est jamais interrogé pour ses fichiers. Changez son **code à 4 chiffres** (0000 au départ) dans **Réglages**.
 
+![Le code des catégories réservées](img/14-code.png)
+
 Chaque profil choisit, dans **Réglages**, puis **Catégories**, comment la voir :
 - **Masquée** : elle n'existe pas pour ce profil.
 - **Dans le menu** : avec le code à l'ouverture (profils administrateurs).
 - **Discrète** : rien n'apparaît nulle part. Pour la faire apparaître : **5 appuis rapides sur le logo** Entracte (sur la télévision, 5 appuis sur OK quand le logo est sélectionné), ou un appui long sur le logo, ou le code tapé dans la recherche (site web), puis le code. Le code ne vous emmène nulle part : il ajoute seulement l'onglet de la catégorie dans la barre du haut. Pour la refermer, entrez dedans et choisissez **Masquer**. Un mauvais code ne montre rien.
 
+  ![Les catégories dans Réglages](img/13-reglages-categories.png)
+
 Dans cette catégorie, l'onglet **En ligne** cherche des vidéos sur les plateformes activées dans **Réglages**, **Vidéos en ligne**, toutes à la fois, avec favoris et vidéos déjà vues. Dans l'application, la lecture se fait sans publicité ni fenêtre surgissante.
+
+![Vidéos en ligne dans Réglages](img/15-en-ligne.png)
 
 ## La synchronisation : seedbox ou FTP / SFTP
 
 Dans **Réglages**, **Synchronisation**, **Ajouter un serveur**, choisissez le type :
+
+![La synchronisation](img/16-synchronisation.png)
+
+<img src="img/17-nouvelle-source.png" alt="Le formulaire d'une nouvelle source" width="420">
 
 - **Seedbox ruTorrent (conseillé)** : l'adresse de ruTorrent (`https://…/rutorrent/`), puis les identifiants SFTP de la seedbox (ceux de ruTorrent sont souvent les mêmes). Entracte demande à ruTorrent toutes les 15 secondes où en sont les téléchargements : un torrent terminé est rapatrié **aussitôt**. Pour ne prendre que vos torrents sur une seedbox partagée, mettez-leur une **étiquette** dans ruTorrent (par exemple votre prénom) et indiquez-la dans **Étiquettes à prendre** ; le **dossier à surveiller** limite aussi ce qui est pris. Pendant un téléchargement, sa progression s'affiche dans Entracte.
 - **Serveur FTP ou SFTP** : Entracte regarde chaque minute (connexion gardée ouverte) et prend un fichier une minute après sa dernière écriture.
