@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.1.19-0028",
+   "version": "1.1.20-0029",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.19/entracte-armv8-1.1.19-0028.spk",
-   "size": 100454400,
-   "md5": "6cc3c2f86fceb7e5580feda999545b24",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.20/entracte-armv8-1.1.20-0029.spk",
+   "size": 100464640,
+   "md5": "e92fa93a0efd1ed3f65622a66673c5d6",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Films et séries dans un même dossier : il peut servir aux deux catégories, Entracte donne les épisodes aux Séries et le reste aux Films (proposé tout seul par la configuration guidée)\nLes affiches et résumés partent dès que la clé TMDB est enregistrée : l'analyse des génériques ne les retarde plus",
+   "changelog": "Premier lancement : un écran avec barre de progression (analyse des fichiers, reconnaissance des titres, affiches) s'affiche avant tout le reste\nCatégorie discrète, partout (site, téléphone, télévision) : le code ajoute son onglet dans la barre du haut sans y emmener \n on la referme en y entrant (Masquer)\nSite web : onglet En ligne dans la catégorie réservée, avec recherche sur toutes les plateformes, aperçus qui défilent au survol, favoris et déjà vues, lecture dans un cadre isolé sans fenêtre surgissante",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
