@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.1.18-0027",
+   "version": "1.1.19-0028",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.18/entracte-x86_64-1.1.18-0027.spk",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.19/entracte-x86_64-1.1.19-0028.spk",
    "size": 133591040,
-   "md5": "b72b6e7258156f20e1aca30c1b14381e",
+   "md5": "f98d6f7745cbc51d88418920cc4bb8d1",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Réglages, Mises à jour : le bon onglet de DSM (Mise à jour auto) pour les mises à jour automatiques",
+   "changelog": "Films et séries dans un même dossier : il peut servir aux deux catégories, Entracte donne les épisodes aux Séries et le reste aux Films (proposé tout seul par la configuration guidée)\nLes affiches et résumés partent dès que la clé TMDB est enregistrée : l'analyse des génériques ne les retarde plus",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
