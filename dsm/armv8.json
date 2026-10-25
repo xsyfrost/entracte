@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.2.10-0047",
+   "version": "1.2.11-0048",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.10/entracte-armv8-1.2.10-0047.spk",
-   "size": 100802560,
-   "md5": "cf0f75f1309d9bd405bc9f31020c9e6b",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.11/entracte-armv8-1.2.11-0048.spk",
+   "size": 100792320,
+   "md5": "e2485d8bae10cfb0a0db59bc3b3dd379",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Seedbox : un torrent envoyé depuis Entracte n'est plus rangé deux fois (Seb/Seb/…) et démarre normalement : seule l'étiquette est envoyée, la seedbox range elle-même",
+   "changelog": "Note des spectateurs TMDB sur les affiches des films et séries (web et appli)",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
