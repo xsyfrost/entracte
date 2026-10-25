@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.1.24-0034",
+   "version": "1.1.25-0035",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.24/entracte-armv8-1.1.24-0034.spk",
-   "size": 100515840,
-   "md5": "2779dcace05d478052b82f7f01ca9997",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.25/entracte-armv8-1.1.25-0035.spk",
+   "size": 100526080,
+   "md5": "6c554f98e27df0efe1a768b26da8477e",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Corriger l'identification : recherche plus tolérante (sans l'année, en anglais, titre raccourci), lien ou numéro TMDB accepté, filtres facultatifs Acteur et Réalisateur ou auteur\n Nouvelle catégorie Dessins animés (films et séries mêlés), où les dessins animés reçus de la seedbox sont rangés d'après TMDB\n Appli : bouton Torrents pour l'administrateur, qui envoie un fichier .torrent ou un lien magnet à la seedbox et suit l'avancement",
+   "changelog": "Corriger l'identification : un seul champ facultatif pour la personne (acteur, réalisateur, auteur), un nom partiel suffit (le secret + rhonda trouve Le Secret de 2006)\n Bouton Chercher placé après les champs",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
