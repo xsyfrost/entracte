@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.1.25-0035",
+   "version": "1.2.0-0037",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.1.25/entracte-armv8-1.1.25-0035.spk",
-   "size": 100526080,
-   "md5": "6c554f98e27df0efe1a768b26da8477e",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.0/entracte-armv8-1.2.0-0037.spk",
+   "size": 100669440,
+   "md5": "323f9b18c3a7d1d5b517382ed3bd5bac",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Corriger l'identification : un seul champ facultatif pour la personne (acteur, réalisateur, auteur), un nom partiel suffit (le secret + rhonda trouve Le Secret de 2006)\n Bouton Chercher placé après les champs",
+   "changelog": "Nouvelle page Seedbox (bouton entre la loupe et le profil) : déposer un torrent (glisser, fichier ou magnet), titre reconnu par TMDB, catégorie devinée, Lancer, puis rapatriement automatique une fois fini\n Chez les autres : les films et séries de la seedbox en affiches, avec langue et drapeau, qui et quand, bande-annonce en grand et téléchargement en un clic\n Bande En cours en couleurs (seedbox, vers le NAS, décompression, rangé)\n Décompression des archives RAR et ZIP\n La seedbox n'est plus interrogée en permanence",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
