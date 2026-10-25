@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.2.3-0040",
+   "version": "1.2.4-0041",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.3/entracte-armv8-1.2.3-0040.spk",
-   "size": 100679680,
-   "md5": "87664302936860accb7187d662a1a3a7",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.4/entracte-armv8-1.2.4-0041.spk",
+   "size": 100669440,
+   "md5": "142546656a53f31e2c82fe209aeeed7f",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Seedbox : la barre de progression de la bande En cours ne traverse plus la page",
+   "changelog": "Seedbox : les torrents sans vidéo (logiciels, jeux, musique) sont cachés, d'après leur contenu\n Les vidéos que TMDB ne connaît pas sont regroupées en bas, dans Non reconnus",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
