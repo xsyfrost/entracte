@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.2.9-0046",
+   "version": "1.2.10-0047",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.9/entracte-x86_64-1.2.9-0046.spk",
-   "size": 133959680,
-   "md5": "887611ccb507157b0c6cedeae9308c91",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.10/entracte-x86_64-1.2.10-0047.spk",
+   "size": 133949440,
+   "md5": "08bd5239212b2c61486da89a3390b677",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Appli : filtres de la Seedbox en trois boutons (personne, langue, note) qui affichent le choix en cours et ouvrent une liste",
+   "changelog": "Seedbox : un torrent envoyé depuis Entracte n'est plus rangé deux fois (Seb/Seb/…) et démarre normalement : seule l'étiquette est envoyée, la seedbox range elle-même",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
