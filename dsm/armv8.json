@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.2.5-0042",
+   "version": "1.2.6-0043",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.5/entracte-armv8-1.2.5-0042.spk",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.6/entracte-armv8-1.2.6-0043.spk",
    "size": 100771840,
-   "md5": "c66cdd21f3eee9432e3b41ad6f561616",
+   "md5": "8f1dfe3b18534929f0f80ce561142ea3",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Appli Android : nouvel écran Seedbox comme sur le web (bande En cours, Chez les autres et Mes envois, filtres personne, langue et note, affiches avec drapeaux et note, fiche avec bande-annonce, saisons et épisodes à cocher, ajout d'un torrent avec la catégorie devinée)\n Bande En cours : croix pour effacer une ligne finie ou en erreur, et Effacer les terminés\n Messages d'erreur affichés sous la ligne",
+   "changelog": "Appli : sur téléphone, une catégorie réservée (Adulte) a son onglet en haut, le code est demandé en entrant",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
