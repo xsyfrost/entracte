@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.2.0-0037",
+   "version": "1.2.1-0038",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.0/entracte-armv8-1.2.0-0037.spk",
-   "size": 100669440,
-   "md5": "323f9b18c3a7d1d5b517382ed3bd5bac",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.1/entracte-armv8-1.2.1-0038.spk",
+   "size": 100679680,
+   "md5": "42aecc011fade742bf77aeed1accb1c0",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Nouvelle page Seedbox (bouton entre la loupe et le profil) : déposer un torrent (glisser, fichier ou magnet), titre reconnu par TMDB, catégorie devinée, Lancer, puis rapatriement automatique une fois fini\n Chez les autres : les films et séries de la seedbox en affiches, avec langue et drapeau, qui et quand, bande-annonce en grand et téléchargement en un clic\n Bande En cours en couleurs (seedbox, vers le NAS, décompression, rangé)\n Décompression des archives RAR et ZIP\n La seedbox n'est plus interrogée en permanence",
+   "changelog": "Seedbox : note des spectateurs TMDB en couleur sur chaque affiche (vert, orange, rouge) et filtre par note\n Une carte par série, un clic ouvre saisons et épisodes, tout télécharger ou cocher ce qu'on veut\n Saison et épisodes indiqués (Saison 2 complète, Saison 4 ép. 8 à 10)\n Plus d'affiches trouvées (séries documentaires, noms avec tirets), bandes-annonces cherchées aussi dans les saisons et toutes les langues\n Jeux vidéo cachés\n Boutons ronds de la Seedbox et de la recherche",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
