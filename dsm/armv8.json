@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.2.7-0044",
+   "version": "1.2.8-0045",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.7/entracte-armv8-1.2.7-0044.spk",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.8/entracte-armv8-1.2.8-0045.spk",
    "size": 100771840,
-   "md5": "cd9a830c1a8a41fca4993549efc5a66d",
+   "md5": "73daec4ecdf74bfa23f2691324a4eebd",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Seedbox : un torrent fini mais pas encore visible sur le FTP est réessayé pendant une heure au lieu de tomber en erreur\n L'interface web se recharge d'elle-même après une mise à jour du NAS",
+   "changelog": "Seedbox : un torrent retiré de ruTorrent passe en erreur (retiré de la seedbox) au lieu de rester en attente",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
