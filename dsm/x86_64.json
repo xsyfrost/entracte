@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.2.2-0039",
+   "version": "1.2.3-0040",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.2/entracte-x86_64-1.2.2-0039.spk",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.3/entracte-x86_64-1.2.3-0040.spk",
    "size": 133836800,
-   "md5": "8c88cb83ef092e66fb0308ae99347262",
+   "md5": "1861b157a69c61f3e830a864e9e56df9",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Seedbox : l'envoi d'un torrent fonctionne avec ruTorrent (réponse par redirection)\n Un nouveau torrent va dans votre dossier même quand vous n'en avez aucun sur la seedbox\n Rapatriement d'un torrent arrêté (cherché par son nom)\n Un téléchargement en erreur se relance d'un clic\n Jeux vidéo cachés\n Libellé Bande-annonce sur une ligne",
+   "changelog": "Seedbox : la barre de progression de la bande En cours ne traverse plus la page",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
