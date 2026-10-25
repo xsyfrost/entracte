@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.2.4-0041",
+   "version": "1.2.5-0042",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.4/entracte-x86_64-1.2.4-0041.spk",
-   "size": 133826560,
-   "md5": "37da847a4dd85ee6d246a62ae9ffee8f",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.5/entracte-x86_64-1.2.5-0042.spk",
+   "size": 133928960,
+   "md5": "546b64d09a42785b04955ed0a9ee28b4",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Seedbox : les torrents sans vidéo (logiciels, jeux, musique) sont cachés, d'après leur contenu\n Les vidéos que TMDB ne connaît pas sont regroupées en bas, dans Non reconnus",
+   "changelog": "Appli Android : nouvel écran Seedbox comme sur le web (bande En cours, Chez les autres et Mes envois, filtres personne, langue et note, affiches avec drapeaux et note, fiche avec bande-annonce, saisons et épisodes à cocher, ajout d'un torrent avec la catégorie devinée)\n Bande En cours : croix pour effacer une ligne finie ou en erreur, et Effacer les terminés\n Messages d'erreur affichés sous la ligne",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
