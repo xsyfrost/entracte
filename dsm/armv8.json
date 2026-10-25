@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.2.1-0038",
+   "version": "1.2.2-0039",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.1/entracte-armv8-1.2.1-0038.spk",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.2/entracte-armv8-1.2.2-0039.spk",
    "size": 100679680,
-   "md5": "42aecc011fade742bf77aeed1accb1c0",
+   "md5": "7c028ad65d8ba1bdc8e5fc0b0619579a",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Seedbox : note des spectateurs TMDB en couleur sur chaque affiche (vert, orange, rouge) et filtre par note\n Une carte par série, un clic ouvre saisons et épisodes, tout télécharger ou cocher ce qu'on veut\n Saison et épisodes indiqués (Saison 2 complète, Saison 4 ép. 8 à 10)\n Plus d'affiches trouvées (séries documentaires, noms avec tirets), bandes-annonces cherchées aussi dans les saisons et toutes les langues\n Jeux vidéo cachés\n Boutons ronds de la Seedbox et de la recherche",
+   "changelog": "Seedbox : l'envoi d'un torrent fonctionne avec ruTorrent (réponse par redirection)\n Un nouveau torrent va dans votre dossier même quand vous n'en avez aucun sur la seedbox\n Rapatriement d'un torrent arrêté (cherché par son nom)\n Un téléchargement en erreur se relance d'un clic\n Jeux vidéo cachés\n Libellé Bande-annonce sur une ligne",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
