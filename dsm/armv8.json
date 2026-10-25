@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.2.6-0043",
+   "version": "1.2.7-0044",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.6/entracte-armv8-1.2.6-0043.spk",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.7/entracte-armv8-1.2.7-0044.spk",
    "size": 100771840,
-   "md5": "8f1dfe3b18534929f0f80ce561142ea3",
+   "md5": "cd9a830c1a8a41fca4993549efc5a66d",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Appli : sur téléphone, une catégorie réservée (Adulte) a son onglet en haut, le code est demandé en entrant",
+   "changelog": "Seedbox : un torrent fini mais pas encore visible sur le FTP est réessayé pendant une heure au lieu de tomber en erreur\n L'interface web se recharge d'elle-même après une mise à jour du NAS",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
