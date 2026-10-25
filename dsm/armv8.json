@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.2.8-0045",
+   "version": "1.2.9-0046",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.8/entracte-armv8-1.2.8-0045.spk",
-   "size": 100771840,
-   "md5": "73daec4ecdf74bfa23f2691324a4eebd",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.9/entracte-armv8-1.2.9-0046.spk",
+   "size": 100802560,
+   "md5": "958242ea1e0fb5dbe8bcdefeebfcf4d5",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Seedbox : un torrent retiré de ruTorrent passe en erreur (retiré de la seedbox) au lieu de rester en attente",
+   "changelog": "Appli : filtres de la Seedbox en trois boutons (personne, langue, note) qui affichent le choix en cours et ouvrent une liste",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
