@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.2.11-0048",
+   "version": "1.2.12-0049",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.11/entracte-armv8-1.2.11-0048.spk",
-   "size": 100792320,
-   "md5": "e2485d8bae10cfb0a0db59bc3b3dd379",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.12/entracte-armv8-1.2.12-0049.spk",
+   "size": 100802560,
+   "md5": "d0007dc451ba1acd270dbb5af05e08cc",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Note des spectateurs TMDB sur les affiches des films et séries (web et appli)",
+   "changelog": "Accès de l'extérieur par VPN WireGuard : la maison se limite au réseau du NAS (VPN et routeur comptent comme l'extérieur, mot de passe exigé)\n procédure dans Réglages et dans le guide",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
