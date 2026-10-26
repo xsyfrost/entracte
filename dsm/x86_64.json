@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.2.15-0052",
+   "version": "1.2.16-0053",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.15/entracte-x86_64-1.2.15-0052.spk",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.16/entracte-x86_64-1.2.16-0053.spk",
    "size": 134072320,
-   "md5": "e128bb7c0697addd438c5d79e11f16a9",
+   "md5": "0a83e8029ad00368bd519886cd815765",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Appli : l'écran de connexion se remet à jour en revenant dans l'appli (Wi-Fi retrouvé, Tailscale activé)",
+   "changelog": "Appli téléphone : les catégories passent dans la recherche (plus d'onglet coupé dans la barre), selon les 3 modes réglés sur le serveur \n catégorie discrète ouverte directement après le code",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
