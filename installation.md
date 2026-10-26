@@ -111,6 +111,21 @@ Dans **Réglages**, **Synchronisation**, **Ajouter un serveur**, choisissez le t
 
 Dans les deux cas, Entracte ne fait que lire le serveur (il n'y supprime, n'y renomme et n'y dépose jamais rien), ne rapatrie chaque vidéo qu'une fois, puis la range seule. Dans **Où ranger**, choisissez le dossier des Films, des Séries et des Documentaires. Entracte doit avoir le droit d'écrire dans ces dossiers (voir « pas le droit de lire » plus haut, et cochez Lecture/Écriture).
 
+## Regarder depuis l'extérieur (VPN WireGuard)
+
+Entracte n'est jamais ouvert directement sur Internet. Pour regarder hors de la maison (vacances, 4G), le téléphone se connecte d'abord à la maison par un **VPN WireGuard**. C'est gratuit, sans compte à créer, et intégré à la plupart des routeurs et des box (ASUS, Freebox, Fritz!Box…). Sans la clé d'un appareil autorisé, le VPN ne répond à rien. Vu de l'extérieur, la maison semble fermée.
+
+1. **Activer le serveur WireGuard sur le routeur.**
+   - ASUS : *VPN › Serveur VPN › WireGuard VPN*, activer.
+   - Freebox : *Paramètres de la Freebox › Serveur VPN › WireGuard*, activer.
+2. **Si le routeur est lui-même derrière une box**, rediriger le port UDP du VPN (51820 par défaut) de la box vers le routeur. Sur une Freebox, c'est dans *Gestion des ports*. Si le routeur est en mode bridge ou si c'est la box qui fait le VPN, rien à faire.
+3. **Créer un client par appareil** (téléphone, tablette…) sur le routeur. Chaque client a son QR code.
+4. **Installer l'appli WireGuard** (gratuite, sur Android et iOS) sur l'appareil et scanner le QR code.
+5. **Dans Entracte, à la maison** : *Réglages › Regarder depuis l'extérieur*, chaque personne choisit un mot de passe pour son profil. À la maison, aucun mot de passe n'est demandé. Par le VPN, Entracte le demande toujours.
+6. **Dehors** : activer WireGuard sur le téléphone, puis ouvrir Entracte comme à la maison, à la même adresse.
+
+Un appareil perdu se coupe en supprimant son client sur le routeur. La même procédure est rappelée dans Entracte, *Réglages › Accès de l'extérieur*.
+
 ## En cas de souci
 
 - **Entracte ne démarre pas** : Centre de paquets, Entracte, **Journal**. Envoyez ce qui s'affiche à la personne qui vous a installé Entracte.
