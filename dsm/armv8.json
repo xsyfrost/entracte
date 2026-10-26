@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.2.14-0051",
+   "version": "1.2.15-0052",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.14/entracte-armv8-1.2.14-0051.spk",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.15/entracte-armv8-1.2.15-0052.spk",
    "size": 100915200,
-   "md5": "531c7c3e4fc89e2d01094c7cd944adb2",
+   "md5": "94a3ee444678427e1e8aec8d3073ae9e",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Appli : le téléphone est autorisé à la maison et s'ouvre dehors à l'empreinte, sans prénom ni mot de passe\n appareils autorisés listés et révocables dans Réglages\n bascule automatique maison/Tailscale\n prénom sans tenir compte des accents",
+   "changelog": "Appli : l'écran de connexion se remet à jour en revenant dans l'appli (Wi-Fi retrouvé, Tailscale activé)",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
