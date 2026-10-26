@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.2.12-0049",
+   "version": "1.2.13-0050",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.12/entracte-x86_64-1.2.12-0049.spk",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.13/entracte-x86_64-1.2.13-0050.spk",
    "size": 133949440,
-   "md5": "8353ceddd76df948cdb46754eaa261cd",
+   "md5": "81039bfbacaf1b8697fd9dc5d1bcc929",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Accès de l'extérieur par VPN WireGuard : la maison se limite au réseau du NAS (VPN et routeur comptent comme l'extérieur, mot de passe exigé)\n procédure dans Réglages et dans le guide",
+   "changelog": "Accès de l'extérieur par Tailscale : procédure dans Réglages et dans le guide, adresse Tailscale du NAS affichée\n l'appli retient l'adresse Tailscale et bascule seule hors de la maison",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
