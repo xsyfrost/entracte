@@ -111,20 +111,22 @@ Dans **Réglages**, **Synchronisation**, **Ajouter un serveur**, choisissez le t
 
 Dans les deux cas, Entracte ne fait que lire le serveur (il n'y supprime, n'y renomme et n'y dépose jamais rien), ne rapatrie chaque vidéo qu'une fois, puis la range seule. Dans **Où ranger**, choisissez le dossier des Films, des Séries et des Documentaires. Entracte doit avoir le droit d'écrire dans ces dossiers (voir « pas le droit de lire » plus haut, et cochez Lecture/Écriture).
 
-## Regarder depuis l'extérieur (VPN WireGuard)
+## Regarder depuis l'extérieur (Tailscale)
 
-Entracte n'est jamais ouvert directement sur Internet. Pour regarder hors de la maison (vacances, 4G), le téléphone se connecte d'abord à la maison par un **VPN WireGuard**. C'est gratuit, sans compte à créer, et intégré à la plupart des routeurs et des box (ASUS, Freebox, Fritz!Box…). Sans la clé d'un appareil autorisé, le VPN ne répond à rien. Vu de l'extérieur, la maison semble fermée.
+Entracte n'est jamais ouvert directement sur Internet. Pour regarder hors de la maison (vacances, 4G), téléphones et tablettes passent par **Tailscale**, un réseau privé chiffré (WireGuard). Il est gratuit jusqu'à 100 appareils et n'ouvre aucun port sur la box : vu d'Internet, il n'y a rien à attaquer. Il fonctionne quel que soit le routeur ou la box.
 
-1. **Activer le serveur WireGuard sur le routeur.**
-   - ASUS : *VPN › Serveur VPN › WireGuard VPN*, activer.
-   - Freebox : *Paramètres de la Freebox › Serveur VPN › WireGuard*, activer.
-2. **Si le routeur est lui-même derrière une box**, rediriger le port UDP du VPN (51820 par défaut) de la box vers le routeur. Sur une Freebox, c'est dans *Gestion des ports*. Si le routeur est en mode bridge ou si c'est la box qui fait le VPN, rien à faire.
-3. **Créer un client par appareil** (téléphone, tablette…) sur le routeur. Chaque client a son QR code.
-4. **Installer l'appli WireGuard** (gratuite, sur Android et iOS) sur l'appareil et scanner le QR code.
-5. **Dans Entracte, à la maison** : *Réglages › Regarder depuis l'extérieur*, chaque personne choisit un mot de passe pour son profil. À la maison, aucun mot de passe n'est demandé. Par le VPN, Entracte le demande toujours.
-6. **Dehors** : activer WireGuard sur le téléphone, puis ouvrir Entracte comme à la maison, à la même adresse.
+1. **Créer un compte gratuit** sur [tailscale.com](https://login.tailscale.com/start), avec un compte Google, Microsoft, Apple ou GitHub. C'est la seule inscription.
+2. **Sur le NAS** : *Centre de paquets*, chercher **Tailscale**, *Installer*, *Ouvrir*, puis se connecter avec ce compte.
+3. **Passer Tailscale en mode TUN** (une seule fois) : *Panneau de configuration › Planificateur de tâches › Créer › Tâche déclenchée › Script défini par l'utilisateur*. Utilisateur **root**, événement **Démarrage**, et ce script :
+   ```
+   /var/packages/Tailscale/target/bin/tailscale configure-host; synosystemctl restart pkgctl-Tailscale.service
+   ```
+   Enregistrer, puis clic droit sur la tâche, *Exécuter*.
+4. **Sur chaque téléphone ou tablette** : installer l'appli **Tailscale** (Android, iOS) et se connecter avec le même compte.
+5. **Dans Entracte, à la maison** : ouvrir l'appli une fois (elle retient toute seule l'adresse Tailscale du NAS). Puis, dans *Réglages › Regarder depuis l'extérieur*, chaque personne choisit un mot de passe pour son profil. À la maison, aucun mot de passe n'est demandé. Par Tailscale, Entracte le demande toujours.
+6. **Dehors** : activer Tailscale sur le téléphone et ouvrir Entracte, qui bascule seul sur l'adresse Tailscale. Dans un navigateur, utiliser l'adresse Tailscale affichée dans *Réglages › Accès de l'extérieur* (du type `http://100.x.y.z:8420`).
 
-Un appareil perdu se coupe en supprimant son client sur le routeur. La même procédure est rappelée dans Entracte, *Réglages › Accès de l'extérieur*.
+Un appareil perdu se supprime dans la console Tailscale (*Machines*). Pour donner accès à un proche, partager le NAS depuis la console (*Machines › le NAS › Share*) : il garde son propre compte Tailscale. La même procédure est rappelée dans Entracte, *Réglages › Accès de l'extérieur*.
 
 ## En cas de souci
 
