@@ -123,10 +123,10 @@ Entracte n'est jamais ouvert directement sur Internet. Pour regarder hors de la 
    ```
    Enregistrer, puis clic droit sur la tâche, *Exécuter*.
 4. **Sur chaque téléphone ou tablette** : installer l'appli **Tailscale** (Android, iOS) et se connecter avec le même compte.
-5. **Dans Entracte, à la maison** : ouvrir l'appli une fois (elle retient toute seule l'adresse Tailscale du NAS). Puis, dans *Réglages › Regarder depuis l'extérieur*, chaque personne choisit un mot de passe pour son profil. À la maison, aucun mot de passe n'est demandé. Par Tailscale, Entracte le demande toujours.
-6. **Dehors** : activer Tailscale sur le téléphone et ouvrir Entracte, qui bascule seul sur l'adresse Tailscale. Dans un navigateur, utiliser l'adresse Tailscale affichée dans *Réglages › Accès de l'extérieur* (du type `http://100.x.y.z:8420`).
+5. **Dans Entracte, à la maison** : ouvrir l'appli une fois en Wi-Fi. Elle retient toute seule l'adresse Tailscale du NAS, et le téléphone devient un appareil autorisé (liste dans *Réglages › Regarder depuis l'extérieur*).
+6. **Dehors** : activer Tailscale et ouvrir Entracte. Il bascule seul sur l'adresse Tailscale et s'ouvre à l'empreinte (ou au code du téléphone), sans prénom ni mot de passe. Dans un navigateur, utiliser l'adresse Tailscale affichée dans *Réglages › Accès de l'extérieur* (du type `http://100.x.y.z:8420`), avec le prénom et un mot de passe choisi à la maison dans *Réglages › Regarder depuis l'extérieur*.
 
-Un appareil perdu se supprime dans la console Tailscale (*Machines*). Pour donner accès à un proche, partager le NAS depuis la console (*Machines › le NAS › Share*) : il garde son propre compte Tailscale. La même procédure est rappelée dans Entracte, *Réglages › Accès de l'extérieur*.
+Un appareil perdu se retire dans *Réglages › Regarder depuis l'extérieur* (bouton *Retirer*), et peut aussi être supprimé dans la console Tailscale (*Machines*). Pour donner accès à un proche, partager le NAS depuis la console (*Machines › le NAS › Share*) : il garde son propre compte Tailscale. La même procédure est rappelée dans Entracte, *Réglages › Accès de l'extérieur*.
 
 ## En cas de souci
 
