@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.2.17-0054",
+   "version": "1.2.18-0055",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.17/entracte-armv8-1.2.17-0054.spk",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.18/entracte-armv8-1.2.18-0055.spk",
    "size": 100915200,
-   "md5": "4e463d0c4333b2c1b07889297abbf287",
+   "md5": "0233ead76ad8e9944573a8d00262c029",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Téléphone : catégories en tuiles dans la loupe (cadenas si code), loupe cerclée, code en 4 cases",
+   "changelog": "Sous-titres signalés sur toutes les vignettes et les épisodes (ST + drapeaux, forcés exclus) \n catégories en bulles sur téléphone",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
