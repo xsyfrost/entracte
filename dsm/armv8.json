@@ -2,18 +2,18 @@
  "packages": [
   {
    "package": "entracte",
-   "version": "1.2.18-0055",
+   "version": "1.2.19-0056",
    "dname": "Entracte",
    "desc": "Vos films et séries, à la maison et en déplacement.",
-   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.18/entracte-armv8-1.2.18-0055.spk",
+   "link": "https://github.com/xsyfrost/entracte/releases/download/v1.2.19/entracte-armv8-1.2.19-0056.spk",
    "size": 100915200,
-   "md5": "0233ead76ad8e9944573a8d00262c029",
+   "md5": "d15963946ed605dd6c20ff96ef0a714a",
    "thumbnail": [
     "https://xsyfrost.github.io/entracte/dsm/icon-72.png",
     "https://xsyfrost.github.io/entracte/dsm/icon-256.png"
    ],
    "snapshot": [],
-   "changelog": "Sous-titres signalés sur toutes les vignettes et les épisodes (ST + drapeaux, forcés exclus) \n catégories en bulles sur téléphone",
+   "changelog": "Langues sous le titre des vignettes : drapeaux audio et bulle ST FR, plus rien sur l'image hormis la note",
    "maintainer": "Entracte",
    "maintainer_url": "https://github.com/xsyfrost/entracte",
    "distributor": "",
